@@ -170,6 +170,23 @@ branch 'main' set up to track 'origin/main'.
 
 
 ### Step 6
+$ git add .
+
+$ git commit -m 'Started a menu'
+[main 24a470e] Started a menu
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 menu.txt
+
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 284 bytes | 284.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ZachariahG/deliverable_one.git
+   ece8b91..24a470e  main -> main
 
 
 ### Step 7
