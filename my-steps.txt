@@ -1,0 +1,176 @@
+### Step 2A
+$ pwd
+/c/Users/gregg/Documents
+
+### Step 2B
+$ cd OneDrive/Desktop
+
+
+### Step 2C
+$ cd unit1-git-practice
+
+
+### Step 2D
+$ pwd
+/c/Users/gregg/OneDrive/Desktop/unit1-git-practice
+
+
+### Step 2E
+$ ls
+
+### Step 2F
+my-steps.txt
+
+### Step 2G
+$ cd ~
+
+### Step 2H
+$ pwd
+/c/Users/gregg
+
+
+### Step 2I
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{fe2ec462-afe3-11ed-b004-995bf2b0a5d3}.TM.blf
+ NTUSER.DAT{fe2ec462-afe3-11ed-b004-995bf2b0a5d3}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fe2ec462-afe3-11ed-b004-995bf2b0a5d3}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ test/
+
+
+### Step 2J
+$ cd ~
+
+
+### Step 2K
+$ cd /c/Users/gregg/OneDrive/Desktop/unit1-git-practice
+
+
+### Step 3A
+$ mkdir veggies meats desserts
+
+
+### Step 3B
+$ mv desserts sweets
+
+### Step 3C
+$ mkdir proteins
+
+
+### Step 3D
+$ mv meats proteins
+
+
+### Step 3E
+$ cd veggies
+$ touch carrot.txt pea.txt
+
+
+### Step 3F
+$ cd ..
+$ cd sweets
+$ touch cookie.txt
+
+
+### Step 3G
+$ mv cookie.txt donut.txt
+
+
+### Step 3H
+$ cd ..
+$ touch thing.txt
+
+
+### Step 3I
+$ cp thing.txt tofu.txt
+
+
+### Step 3J
+$ mv tofu.txt proteins
+
+
+### Step 3K
+$ cp thing.txt crab.txt
+$ mv crab.txt proteins/meats
+
+### Step 3L
+$ rm thing.txt
+
+
+### Step 3M
+$ cp -r veggies plants
+
+
+### Step 3N
+$ mkdir drinks
+$ rm -r drinks
+
+
+### Step 4
+$ git init
+Initialized empty Git repository in C:/Users/gregg/OneDrive/Desktop/Web Dev Proj
+
+
+$ git add .
+
+
+$ git commit -m 'first commit'
+[master (root-commit) 8479909] first commit
+ 7 files changed, 307 insertions(+)
+ create mode 100644 LI-In-Bug.png
+ create mode 100644 github-mark.png
+ create mode 100644 index.html
+ create mode 100644 pic.jpg
+ create mode 100644 some-words.css
+ create mode 100644 some-words.html
+ create mode 100644 styles.css
+
+
+### Step 5
+$ git remote add origin https://github.com/ZachariahG/Unit1-Practice.git
+git branch -M main
+git push -u origin main
+
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 657.53 KiB | 27.40 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ZachariahG/Unit1-Practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
